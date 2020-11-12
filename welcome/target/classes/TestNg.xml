@@ -1,0 +1,11 @@
+<suite name="Weather API Automation" verbose="1">
+
+    <test name="Weather API Automation">
+        <classes>
+            <class name ="Test.GetWeather" />
+            <class name ="Test.GetWeatherInDetail" />
+        </classes>
+    </test>
+
+
+</suite>
