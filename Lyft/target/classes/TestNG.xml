@@ -1,0 +1,16 @@
+<suite name="Lyft API Automation" verbose="1">
+
+    <test name="Lyft API Automation">
+        <classes>
+            <class name ="Bin" />
+            <methods>
+                <include name = "getID"></include>
+                <include name = "getUuid"></include>
+                <include name = "postData"></include>
+                <include name = "putData"></include>
+            </methods>
+        </classes>
+    </test>
+
+
+</suite>

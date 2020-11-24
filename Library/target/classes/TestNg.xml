@@ -1,0 +1,16 @@
+<suite name="Library API Automation" verbose="1">
+
+    <test name="Library API Automation">
+        <classes>
+            <class name ="Book" />
+            <methods>
+                <include name = "getBook"></include>
+                <include name = "updateBook"></include>
+                <include name = "addBook"></include>
+                <include name = "deleteBook"></include>
+            </methods>
+        </classes>
+    </test>
+
+
+</suite>
